@@ -26,9 +26,5 @@ public class MainActivity extends AppCompatActivity {
         DialogFragment newFragment = new TimePickerFragment();
         newFragment.show(getSupportFragmentManager(), "timePicker");
     }
-
-    public void mostrarMensaje(View view){
-        Toast.makeText(this,"Estoy mamadisimo.",Toast.LENGTH_LONG).show();
-    }
-
+    
 }
